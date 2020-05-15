@@ -1,0 +1,80 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2511
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica-Oblique;\f1\fnil\fcharset0 OpenSans-Regular;\f2\fswiss\fcharset0 Helvetica;
+}
+{\colortbl;\red255\green255\blue255;\red78\green78\blue78;\red25\green25\blue25;\red0\green0\blue0;
+\red109\green109\blue109;\red78\green78\blue78;\red25\green25\blue25;}
+{\*\expandedcolortbl;;\csgenericrgb\c30588\c30588\c30588;\csgenericrgb\c9804\c9804\c9804;\cssrgb\c0\c0\c0;
+\csgenericrgb\c42745\c42745\c42745;\csgenericrgb\c30588\c30588\c30588;\csgenericrgb\c9804\c9804\c9804;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\i\fs24 \cf2 \cb3 \
+\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\sl360\slmult1\pardirnatural\partightenfactor0
+
+\f1\i0 \cf0 \cb1 				/ ****** Bienvenue dans notre premi\'e8re application Java ******/\
+\
+\
+Ici nous allons proc\'e9der \'e0 l\'92affichage des produits via l\'92url nous menant \'e0 l\'92Api fournit par notre professeur. \
+\
+Pour se faire nous avions utilis\'e9, au d\'e9part, la m\'e9thode RecyclerView. Toutefois, pour un probl\'e8me de pr\'e9cision du nom de l\'92objet de type Array contenant les informations de notre Api, nous avons d\'e9cid\'e9 de passez \'e0 l\'92option Retrofit qui \'e0 fonctionn\'e9 avec succ\'e8s. 
+\f2 \
+\
+
+\f1 \cf4 \expnd0\expndtw0\kerning0
+\uc0\u8232 Pour utiliser Retrofit, nous avons eu besoin de :\
+	- Impl\'e9menter R\'e9trofit2 dans le build.gradle (module:app)\
+	- Cr\'e9er une interface ( car Retrofit transforme notre Api en Interface \'e0 travers laquelle nous 	pouvons acc\'e9der au donn\'e9es par la suite )\
+	- Cr\'e9er une class contenant des objets et des m\'e9thodes d\'e9di\'e9 \'e0 l\'92affichage des donn\'e9es via 	les 	le getter et le setter\
+	- Nous avons aussi ajouter une balise TextView avec pour id : `text_view_result` => c\'92est l\'e0 	que 	nous affichons nos listes de produits.\
+	- Ajout d\'92une permission INTERNET au niveau du fichier AndroidManifest.xml. Cette 	derni\'e8re 	permet \'e0 notre app d\'92acc\'e9der \'e0 internet\
+\
+Pour ce qui est de la base de donn\'e9e, nous avons opt\'e9 pour la techno FireBase, car nous avons pens\'e9 que combin\'e9 les deux serais plus intuitif, rapide et efficace. \
+La documentation est tr\'e8s pertinente ! \
+\
+En ce qui concerne, le comment, nous avons suivi un tutoriel Android.Developper (Documentation) toutefois, nous n\'92avons pu le finaliser jusqu\'92au bout, vous trouverez quand m\'eame si joint dans un autre dossier, cette fonctionnalit\'e9. \
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\i \cf2 \cb3 \kerning1\expnd0\expndtw0 \
+\
+\
+\
+\
+\
+\
+\
+\
+\
+/* -------------------- Ressources / Remerciements -------------------- */\
+/*\
+    Ressources :\
+        - Doc Android.Developper : \cf5 https://developer.android.com/guide/topics/resources/providing-resources\cf2 \
+        - Doc Google.Developper : \cf5 https://developers.google.com/admob/android/quick-start#update_your_androidmanifestxml\cf2 \
+        - Youtube tutoriels : \cf5 https://www.youtube.com/\cf2 \
+        - Doc FireBase :\
+            - \cf5 https://firebase.google.com/\cf2 \
+            - \cf5 https://firebase.google.com/docs/auth/web/manage-users\cf2 \
+        - StackOverFlow :\
+            - \cf5 https://stackoverflow.com/questions/30568641/the-import-android-support-v7-app-actionbardrawertoggle-cannot-be-resolved\cf2 \
+            - \cf5 https://stackoverflow.com/questions/25610727/adding-external-library-in-android-studio\cf2 \
+            - \cf5 https://stackoverflow.com/questions/34842610/cannot-resolve-symbol-toolbar-r-id-toolbar\cf2 \
+            - \cf5 https://stackoverflow.com/questions/46900261/error-ambiguous-method-call-both-findviewbyid-int-in-appcompactactivity-and\cf2 \
+            - \cf5 https://stackoverflow.com/questions/49280632/error9-5-error-resource-androidattr-dialogcornerradius-not-found\cf2 \
+            - \cf5 https://stackoverflow.com/questions/49891730/invoke-customs-are-only-supported-starting-with-android-0-min-api-26\cf2 \
+            - \cf5 https://stackoverflow.com/questions/51341627/android-gives-error-cannot-fit-requested-classes-in-a-single-dex-file\cf2 \
+            - \cf5 https://stackoverflow.com/questions/52786963/unable-to-get-provider-com-google-android-gms-ads-mobileadsinitprovider-java-la\cf2 \
+            - \cf5 https://stackoverflow.com/questions/20081217/java-lang-illegalstateexception-scrollview-can-host-only-one-direct-child/20081261\cf2 \
+        - Autres: \cf5 https://www.11zon.com/android/android_navigation_drawer.php\cf2 \
+\
+			*******************  REMERCIEMENT  \cf6 \cb7 *******************\
+\
+			Nous souhaitons aussi remercier le professeur pour nous avoir apporter 			\'e7a connaissance  et \'e7a science !  Nous sommes reconnaissants pour \'e7a 			car le savoir est quelque chose de tr\'e8s pr\'e9cieux et ce qui nous l\'92enseigne\
+			m\'e9rite d\'92\'eatre remerci\'e9 !!! \cf2 \cb3 \
+ */\
+\
+\
+\
+/* -------------------- By Valentin And Dramane E3B  -------------------- */\
+}

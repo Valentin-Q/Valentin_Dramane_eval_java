@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "532796916486",
+    "firebase_url": "https://application-java-6524e.firebaseio.com",
+    "project_id": "application-java-6524e",
+    "storage_bucket": "application-java-6524e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532796916486:android:e39c8b73fcd66f2ea1d487",
+        "android_client_info": {
+          "package_name": "com.dramanevalentin.applicationjava"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "532796916486-9qmpjj3j5assvmr9trnk7jfo03rkjiio.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dramanevalentin.applicationjava",
+            "certificate_hash": "797b0edf8279369f37a14a6af7091f23aa9ad04a"
+          }
+        },
+        {
+          "client_id": "532796916486-cu9td9burkib5bd3qi6hosh4b6bvil6e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRQrWfEW15b9eCKoRmhrsWW665JYQjO30"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "532796916486-cu9td9burkib5bd3qi6hosh4b6bvil6e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
